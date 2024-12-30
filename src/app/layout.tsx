@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
 import "./globals.css";
-import { Poppins } from "next/font/google";
 import Footer from "@/components/Footer";
 import ActiveSection from "@/context/activeSection";
 import { Toaster } from "react-hot-toast";
@@ -17,11 +16,11 @@ export const metadata = {
   keywords: [
     "Nardos Teshome",
     "Nardos portfolio",
-    "Ui/Ux Designer in Ethiopia",
-    "figma developer in Ethiopia",
-    "website designer",
-    "mobile app designer in Ethiopia",
-    "mobile app and website designer"
+    "UI/UX Designer in Ethiopia",
+    "Figma developer in Ethiopia",
+    "Website designer",
+    "Mobile app designer in Ethiopia",
+    "Mobile app and website designer",
   ],
   authors: [
     {
@@ -29,7 +28,7 @@ export const metadata = {
       url: siteConfig.url,
     },
   ],
-  creator: "Yabibal Eshetie",
+  creator: "Nardos Teshome",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
@@ -41,6 +40,14 @@ export const metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     siteName: siteConfig.name,
+    images: [
+      {
+        url: `${siteConfig.url}/default-og-image.png`, // Default image
+        width: 1200,
+        height: 630,
+        alt: "Nardos Teshome Portfolio Preview",
+      },
+    ],
   },
   icons: {
     icon: "/favicon.ico",
@@ -48,7 +55,8 @@ export const metadata = {
     apple: "/apple-touch-icon.png",
   },
   manifest: `${siteConfig.url}/site.webmanifest`,
-}
+};
+
 
 export default function RootLayout({
   children,
