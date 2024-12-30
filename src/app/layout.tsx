@@ -15,17 +15,17 @@ export const metadata = {
   },
   description: siteConfig.description,
   keywords: [
-    "yabibal Eshetie",
-    "Yabibal portfolio",
-    "Website developer in Ethiopia",
-    "Full-stack developer in Ethiopia",
-    "Full-stack developer",
-    "Ethiopian developer",
-    "MERN stack developer in Ethiopia"
+    "Nardos Teshome",
+    "Nardos portfolio",
+    "Ui/Ux Designer in Ethiopia",
+    "figma developer in Ethiopia",
+    "website designer",
+    "mobile app designer in Ethiopia",
+    "mobile app and website designer"
   ],
   authors: [
     {
-      name: "Yabibal Eshetie",
+      name: "Nardos Teshome",
       url: siteConfig.url,
     },
   ],

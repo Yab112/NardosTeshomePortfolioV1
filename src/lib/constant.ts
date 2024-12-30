@@ -1,11 +1,12 @@
 import cisco from "../../public/cisc.png";
 import book from "../../public/b.png";
 import afca from "../../public/afca.png";
-import yeabrak from "../../public/yeabrak.png";
-import rec from "../../public/rec.png";
-import astmari from "../../public/astmari.png";
+import news from "../../public/News.png";
+import imdfurnuture from "../../public/Imdfurniture.png"
+import temaribet from "../../public/temaribet.png"
 import coders from "../../public/coder.png";
-import m from "../../public/m.png";
+import WeCare from "../../public/WeCare.png";
+import Memo from "../../public/Memo.png";
 
 export const links = [
   {
@@ -38,61 +39,61 @@ export const links = [
 export const projectsData = [
 
   {
-    title: "Yeabrak",
-    description:
-      `Yeabrak is pregnancy companion app, 
-      designed to offer expectant mothers personalized health
-       recommendations`,
-    tags: ["React.js", "React query", "Mantine ui", "Django"],
-    imageUrl: yeabrak,
-    href: 'https://app.yeabrak.com/'
-  },
+    title: "ImdFurniture",
+    description: 
+      `ImdFurniture is a modern furniture e-commerce platform, designed to provide users with a seamless shopping experience. `,
+    tags: ["Figma", "Adobe XD", "User Research", "Wireframing", "Prototyping"],
+    imageUrl: imdfurnuture,
+    href: 'https://app.imd.com/'
+},
+
   {
     title: "Coders Social Media",
     description:
       `Coders social media is social mediaapp, 
       designed for coders to share code snippets and connect with other coders.`,
-    tags: ["Nuxt", "Mantine ui", "nest.js", "Mongodb"],
+    tags: ["Figma", "Adobe XD", "User Research", "Wireframing", "Prototyping"],
     imageUrl: coders,
     href: 'https://app.coders.com/'
   },
 
   {
-    title: "5killo bookclub",
-    description:
-      "This site was developed for the 5kilo AAIT Fellowship Book Club students.",
-    tags: ["React", "Nextjs", "React query", "Shadcn ui", "Nest.js", "Mongodb"],
-    imageUrl: book,
-    href: 'https://bookclub-5kilo.vercel.app/'
-  },
-  {
-    title: "Addis Astemari",
-    description:
-      `Addis Astemari helps schools and educators in creating 
-      fully customizable teaching websites, as well as in building and selling online courses.`,
-    tags: ["Nextjs", "Mantine ui", "Tailwindcss"],
-    imageUrl: astmari,
-    href: 'https://www.addisastemari.com/'
-  },
-  {
-    title: "AFCA",
-    description:
-      `The website was developed for AFCA event registration. 
-      For demonstration purposes, use the these credentials:   demoAdmin@gmail.com password - 123123123.`,
-    tags: ["Nextjs", "React query", "Shadcn ui", "Express.js", "Mongodb"],
-    imageUrl: afca,
-    href: 'https://purchase.afca.coffee/'
-  },
+    title: "Dowell Newsletter",
+    description: 
+      "Dowell Newsletter is a web platform that allows users to view newsletters, manage subscriptions by unsubscribing.",
+    tags: ["UI/UX Design", "Responsive Design", "User Flow", "Figma", "Next.js"],
+    imageUrl: news,
+    href: 'https://www.figma.com/design/I6MLqPElzXuvCIVtv0gdhh/DoWell-Newsletter?node-id=1-2&t=Orli5YSZWddJDcli-1'
+},
+
+{
+  title: "TemariBet Admin Dashboard",
+  description: 
+    `TemariBet Admin Dashboard is an analysis platform designed to help schools and educators evaluate and act on feedback.`,
+  tags: ["UI/UX Design", "Data Analysis", "Mantine UI", "TailwindCSS", "Next.js"],
+  imageUrl: temaribet,
+  href: 'https://www.figma.com/design/PxDsHuAN7SS7rhVxGnWcGO/report?node-id=0-1&t=Juxgq91vTXz9fTHH-1'
+},
 
   {
-    title: "Merine",
-    description:
-      `Merine is dedicated to listing businesses across various categories, 
-      where users can explore detailed profiles, leave reviews, and rate their experiences. `,
-    tags: ["Nextjs", "React query", "Shadcn ui", "Express.js", "Mongodb"],
-    imageUrl: m,
-    href: 'https://www.merinbd.com/'
-  },
+    title: "WeCare",
+    description: 
+      `WeCare is a health assistance platform designed to provide users with personalized health management tools and resources. `,
+    tags: ["UI/UX Design", "Health Assistance", "Figma", "Responsive Design", "Next.js"],
+    imageUrl: WeCare,
+    href: 'https://www.figma.com/design/DWxxjH7mQlGSynagLtKuQa/health-care?node-id=0-1&t=C1hRcbJ7Nhzkkr0U-1'
+},
+
+
+{
+  title: "Memo-tape",
+  description: 
+    `Memo-tape is a tour and travel agency platform designed to offer users seamless booking experiences`,
+  tags: ["UI/UX Design", "Travel Platform", "Figma", "Prototyping", "Responsive Design"],
+  imageUrl: Memo,
+  href: 'https://www.figma.com/design/507kSZ9SrEWxaHZ8l9zZ3F/Memo-tape-tour-and-travel?node-id=94-142&t=5pMTU6tvIy04vq6p-1'
+},
+
 
 
 
@@ -101,38 +102,43 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Express.js",
-  "Nestjs",
-  "Strapi cms",
+  "User Research & Analysis",
+"Wireframing and Prototyping (using tools like Figma, Sketch, or Adobe XD)",
+"User Interface (UI) Design",
+"User Experience (UX) Design",
+"Information Architecture (IA)",
+"Interaction Design (IxD)",
+"Responsive and Mobile-First Design",
+"Accessibility Standards (WCAG Compliance)",
+"Usability Testing & User Feedback Integration",
+"Design Systems and Style Guides"
 ] as const;
 
 
 export const service = [
   {
-    description: "With expertise in the MERN Stack, TypeScript, and Next.js, I specialize in building custom web applications that are optimized for performance, security, and scalability. Whether you need a dynamic single-page application or a complex multi-page solution, I can deliver robust solutions tailored to your needs.",
-    tag: "Cutting-edge Tech Stacks",
-    title: "Web Application Development",
-    headerText: "I have experience with popular frameworks such as React, Vue, and Node.js."
+    description: "I specialize in crafting user-centered web applications with expertise in HTML5, CSS3, JavaScript, TypeScript, React, and Next.js. My designs are focused on creating seamless and accessible user experiences, ensuring both functionality and aesthetic appeal.",
+    tag: "Modern Web Technologies",
+    title: "UI/UX Development",
+    headerText: "Building Scalable and User-Friendly Interfaces with a Focus on Accessibility."
   },
   {
-    description: "Leveraging my API development skills, I can help you build powerful and scalable APIs that seamlessly connect your applications to any service. From RESTful APIs to GraphQL, I ensure smooth integration and efficient communication between your systems and external services.",
-    tag: "Efficient and Scalable APIs",
-    title: "API Development",
-    headerText: "Empowering Your Applications with Seamless Third-Party Integrations."
+    description: "With proficiency in integrating and customizing headless CMS platforms like Strapi, I streamline content management processes for your applications. This enables dynamic and efficient workflows, making content updates smooth and effortless.",
+    tag: "Streamlined Content Management",
+    title: "Headless CMS Integration",
+    headerText: "Simplifying Content Workflows for Better User Engagement."
   },
   {
-    description: "As a dedicated UI/UX designer, I can help create intuitive and visually appealing user interfaces that enhance the user experience. I focus on usability and aesthetics, ensuring that your applications are not only functional but also enjoyable to use.",
-    tag: "User-Centric Design",
-    title: "UI/UX Design",
-    headerText: "Crafting User-Focused Interfaces for Seamless App Experiences."
+    description: "As a UI/UX developer, I excel in conducting user research, wireframing, prototyping, and usability testing. My goal is to create intuitive interfaces that meet user needs while aligning with your business objectives.",
+    tag: "User-Centered Design Practices",
+    title: "User Experience Design",
+    headerText: "Delivering Intuitive and Enjoyable Digital Experiences."
+  },
+  {
+    description: "I design and develop responsive and visually appealing mobile applications. By focusing on user-centric design principles, I ensure that mobile apps provide an engaging and intuitive experience across all devices.",
+    tag: "Mobile-First Design",
+    title: "Mobile Application Design",
+    headerText: "Creating Seamless and Engaging Mobile Experiences."
   }
 ] as const;
-
 
