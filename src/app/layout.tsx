@@ -41,7 +41,6 @@ export const metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     siteName: siteConfig.name,
-    images: `${siteConfig.url}/portfolio.png`,
   },
   icons: {
     icon: "/favicon.ico",
