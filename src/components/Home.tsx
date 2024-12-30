@@ -45,11 +45,11 @@ const Home = () => {
               animate={{ opacity: 1, y: 0 }}
               className="max-w-4xl mx-auto text-center text-white text-2xl sm:text-3xl relative z-20"
             >
-              <span className="font-bold">Hello, I am Yabibal.</span> I am a{" "}
-              <span className="font-bold">Full stack developer.</span> I enjoy
-              building <span className="italic underline ">sites & apps</span>{" "}
-              that are not only functional but also visually appealing and
-              user-friendly.
+              <span className="font-bold">Hello, I am Nardos Teshome.</span> I am a{" "}
+              <span className="font-bold">UI/UX Developer.</span> I specialize in crafting
+              <span className="italic underline">web applications</span>{" "}
+              that are not only visually stunning but also intuitive and accessible,
+              ensuring a seamless user experience for all.
             </motion.div>
           </motion.div>
 
@@ -59,11 +59,11 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
           >
             <p className="max-w-4xl mx-auto text-slate-800 text-center  text-2xl  sm:text-3xl ">
-              <span className="font-bold">Hello, I am Yabibal.</span> I am a{" "}
-              <span className="font-bold">Full stack developer.</span> I enjoy  
-              building <span className="italic underline">sites & apps</span>{" "}
-              that are not only functional but also visually appealing and
-              user-friendly.
+              <span className="font-bold">Hello, I am Nardos Teshome.</span> I am a{" "}
+              <span className="font-bold">UI/UX Developer.</span> I specialize in crafting
+              <span className="italic underline">web applications</span>{" "}
+              that are not only visually stunning but also intuitive and accessible,
+              ensuring a seamless user experience for all.
             </p>
           </motion.div>
 
@@ -75,6 +75,7 @@ const Home = () => {
         <SectionDivider delay={0.125} />
       </div>
     </section>
+
   );
 };
 
@@ -92,7 +93,7 @@ const Button = () => {
     >
       <a
         className=" bg-white z-[1000]  px-4 py-2 shadow-lg  flex items-center gap-2 rounded-full outline-none focus:scale-110   active:scale-105 transition cursor-pointer border"
-        href="/yabibal Resume v2.pdf"
+        href="/Nardos-Teshome cv.pdf"
         download
       >
         Download CV <HiDownload className="opacity-60 " />
@@ -107,17 +108,9 @@ const Button = () => {
           className="opacity-60 group-hover:opacity-100 group-hover:bg-black group-hover:rounded-full group-hover:text-white transition-all duration-200 p-1 text-white"
         />
       </Link>
-
       <a
         className="bg-white p-3 text-gray-700 flex  shadow-lg  items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border"
-        href="https://github.com/Yab112"
-        target="_blank"
-      >
-        <FaGithubSquare className="text-gray-900" />
-      </a>
-      <a
-        className="bg-white p-3 text-gray-700 flex  shadow-lg  items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border"
-        href="https://www.linkedin.com/in/yabibal-eshetie-262097333/"
+        href="https://www.linkedin.com/in/nardos-teshome-078ba12b8/"
         target="_blank"
       >
         <FaLinkedinIn className="text-blue-600" />  
