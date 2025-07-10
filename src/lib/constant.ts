@@ -1,12 +1,19 @@
 import cisco from "../../public/cisc.png";
 import book from "../../public/b.png";
 import afca from "../../public/afca.png";
-import news from "../../public/News.png";
+import newslatter from "../../public/newslatter.png";
 import imdfurnuture from "../../public/Imdfurniture.png"
 import temaribet from "../../public/temaribet.png"
 import coders from "../../public/coder.png";
 import WeCare from "../../public/WeCare.png";
-import Memo from "../../public/Memo.png";
+import Memo1 from "../../public/Memo1.png";
+import healthcare from "../../public/healthcare.png";
+import yekatit from "../../public/yekatit.png";
+import booklate from "../../public/booklate.png";
+import impact from "../../public/impact.png";
+import { title } from "process";
+import MOH from "../../public/MOH.png";
+import fingerprinting from "../../public/fingerprinting.png";
 
 export const links = [
   {
@@ -46,6 +53,22 @@ export const projectsData = [
     imageUrl: imdfurnuture,
     href: 'https://app.imd.com/'
 },
+{
+  title: "MOH performance monitoring App",
+  description: 
+    `MOH performance monitoring App  designed for ministries of health.`,
+  tags: ["Figma", "Adobe XD", "User Research", "Wireframing", "Prototyping"],
+  imageUrl: MOH,
+  href: ''
+},
+{
+  title: "Fingerprinting App",
+  description: 
+    `Fingerprinting App is a biometric authentication solution designed to enhance security and user verification.`,
+  tags: ["Figma", "Adobe XD", "User Research", "Wireframing", "Prototyping"],
+  imageUrl: fingerprinting,
+  href: ''
+},
 
   {
     title: "Coders Social Media",
@@ -62,7 +85,7 @@ export const projectsData = [
     description: 
       "Dowell Newsletter is a web platform that allows users to view newsletters, manage subscriptions by unsubscribing.",
     tags: ["UI/UX Design", "Responsive Design", "User Flow", "Figma", "Next.js"],
-    imageUrl: news,
+    imageUrl: newslatter,
     href: 'https://www.figma.com/design/I6MLqPElzXuvCIVtv0gdhh/DoWell-Newsletter?node-id=1-2&t=Orli5YSZWddJDcli-1'
 },
 
@@ -90,9 +113,47 @@ export const projectsData = [
   description: 
     `Memo-tape is a tour and travel agency platform designed to offer users seamless booking experiences`,
   tags: ["UI/UX Design", "Travel Platform", "Figma", "Prototyping", "Responsive Design"],
-  imageUrl: Memo,
+  imageUrl: Memo1,
   href: 'https://www.figma.com/design/507kSZ9SrEWxaHZ8l9zZ3F/Memo-tape-tour-and-travel?node-id=94-142&t=5pMTU6tvIy04vq6p-1'
 },
+{
+  title: "healthcare platform",
+  description: 
+    `healthcare platform is a comprehensive solution designed to offer users seamless access to health services and information`,
+  tags: ["UI/UX Design", "Health Platform", "Figma", "Prototyping", "Responsive Design"],
+  imageUrl: healthcare,
+  href: 'https://www.figma.com/design/507kSZ9SrEWxaHZ8l9zZ3F/Memo-tape-tour-and-travel?node-id=94-142&t=5pMTU6tvIy04vq6p'
+},
+
+{
+  title: "yekatit 12",
+  description: 
+    `developed a comprehensive UI/UX design for Yekatit 12, focusing on enhancing user experience and accessibility for internal use only. `,
+  tags: ["UI/UX Design", "Travel Platform", "Figma", "Prototyping", "Responsive Design"],
+  imageUrl: yekatit,
+  href: 'https://www.figma.com'
+},
+
+
+{
+  title: "Booklate",
+  description: 
+    `Booklate design for a private client for PTGR.`,
+  tags: ["UI/UX Design", "Comprehensive Platform", "Figma", "Prototyping", "Responsive Design"],
+  imageUrl: booklate,
+  href: 'https://www.figma.com/design/507kSZ9SrEWxaHZ8l9zZ3F/Memo-tape-tour-and-travel?node-id=94-142&t=5pMTU6tvIy04vq6p'
+},
+{
+  title: "Impact logo design",
+  description: 
+    `designed an impactful logo for a client.`,
+  tags: ["Logo Design", "Brand Identity", "Figma", "Adobe Illustrator"],
+  imageUrl: impact,
+  href: ''
+}
+
+
+
 
 
 
