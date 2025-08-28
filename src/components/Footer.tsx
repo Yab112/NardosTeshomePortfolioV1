@@ -6,11 +6,7 @@ export default function Footer() {
       <small className="mb-2 block text-xs">
         &copy; 2024 All rights reserved.
       </small>
-      <p className="text-xs text-sky-900">
-        <span className="font-semibold text-cyan-400">About this website:</span> built with
-        React & Next.js, TypeScript, Tailwind CSS,
-        Framer Motion,  Vercel hosting.
-      </p>
+
     </footer>
   );
 }
