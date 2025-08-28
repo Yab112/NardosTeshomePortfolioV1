@@ -31,7 +31,7 @@ export const MaskContainer = ({
             >
                 <div
 
-                    className="max-w-4xl mx-auto text-center text-white  text-4xl font-bold relative z-20"
+                    className="max-w-4xl mx-auto text-center text-white  text-4xl font-semibold relative z-20"
                 >
                     {children}
                 </div>

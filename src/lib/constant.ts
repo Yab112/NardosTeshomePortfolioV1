@@ -10,10 +10,12 @@ import Memo1 from "../../public/Memo1.png";
 import healthcare from "../../public/healthcare.png";
 import yekatit from "../../public/yekatit.png";
 import booklate from "../../public/booklate.png";
-import impact from "../../public/impact.png";
-import { title } from "process";
+  import impact from "../../public/impact.png";
+  import checkout from "../../public/checkout.png";
 import MOH from "../../public/MOH.png";
 import fingerprinting from "../../public/fingerprinting.png";
+import machine from "../../public/machine.png";
+import m from "../../public/m.png";
 
 export const links = [
   {
@@ -44,15 +46,14 @@ export const links = [
 ] as const;
 
 export const projectsData = [
-
   {
-    title: "ImdFurniture",
+    title: "Healthcare Solutions Website ",
     description: 
-      `ImdFurniture is a modern furniture e-commerce platform, designed to provide users with a seamless shopping experience. `,
+      `A clean and structured website design for a healthcare technology company, showcasing laboratory equipment and product details. The layout emphasizes clarity, trust, and usability with a modern medical-inspired color palette, streamlined navigation, and well-organized product pages for an intuitive browsing experience. `,
     tags: ["Figma", "Adobe XD", "User Research", "Wireframing", "Prototyping"],
-    imageUrl: imdfurnuture,
-    href: 'https://app.imd.com/'
-},
+    imageUrl: machine,
+    href: 'https://www.figma.com/design/Vfig3qCIWUibCSUuJlSlIP/Lean-Healthcare-Solutions--Copy-?node-id=0-1&t=lNrcPvomHhwmzYgq-1'
+},  
 {
   title: "MOH performance monitoring App",
   description: 
@@ -62,12 +63,12 @@ export const projectsData = [
   href: ''
 },
 {
-  title: "Fingerprinting App",
+  title: "Eyewear E-Commerce Website – UI Design",
   description: 
-    `Fingerprinting App is a biometric authentication solution designed to enhance security and user verification.`,
+    `An e-commerce platform for eyewear designed with a modern, user-friendly interface. The layout highlights product discovery, try-on previews, and detailed product pages while maintaining a clean visual style with an orange accent palette. The design focuses on easy navigation, smooth browsing, and a shopping experience that balances style with functionality.`,
   tags: ["Figma", "Adobe XD", "User Research", "Wireframing", "Prototyping"],
-  imageUrl: fingerprinting,
-  href: ''
+  imageUrl: m,
+  href: 'https://www.figma.com/design/XgsK34YHQufBH9Gvpp07Qv/Untitled?node-id=0-1&t=f5jI9Au4yDRSLImj-1'
 },
 
   {
@@ -77,7 +78,7 @@ export const projectsData = [
       designed for coders to share code snippets and connect with other coders.`,
     tags: ["Figma", "Adobe XD", "User Research", "Wireframing", "Prototyping"],
     imageUrl: coders,
-    href: 'https://app.coders.com/'
+    href: 'https://www.figma.com/design/qdTBmQ3fucZfJxxRUf9gMq/Coder-social-media?node-id=0-1&t=xPo5Rc720Xyg8smZ-1'
   },
 
   {
@@ -133,6 +134,14 @@ export const projectsData = [
   imageUrl: yekatit,
   href: 'https://www.figma.com'
 },
+{
+  title: "E-commerce Checkout Flow",
+  description: 
+    `A clean and intuitive checkout design that simplifies online payments. The flow includes secure payment details, order summary, and billing address entry, followed by a success confirmation screen with receipt download and order tracking options. Built with clarity and trust in mind, the design ensures a smooth and user-friendly purchasing experience.. `,
+  tags: ["UI/UX Design", "Travel Platform", "Figma", "Prototyping", "Responsive Design"],
+  imageUrl: checkout,
+  href: 'https://www.figma.com/design/WWE4PR8UWXpiLYXezfJSsD/Untitled?node-id=0-1&t=rbwsfN51JrAV8OG9-1'
+},
 
 
 {
@@ -178,28 +187,22 @@ export const skillsData = [
 
 export const service = [
   {
-    description: "I specialize in crafting user-centered web applications with expertise in HTML5, CSS3, JavaScript, TypeScript, React, and Next.js. My designs are focused on creating seamless and accessible user experiences, ensuring both functionality and aesthetic appeal.",
-    tag: "Modern Web Technologies",
-    title: "UI/UX Development",
-    headerText: "Building Scalable and User-Friendly Interfaces with a Focus on Accessibility."
+    description: "I create intuitive and visually stunning user interfaces that enhance user engagement and drive conversions. From wireframes to high-fidelity prototypes, I design interfaces that are both beautiful and functional across all devices and platforms.",
+    tag: "Visual Design & Prototyping",
+    title: "User Interface Design",
+    headerText: "Creating Beautiful and Intuitive Digital Interfaces."
   },
   {
-    description: "With proficiency in integrating and customizing headless CMS platforms like Strapi, I streamline content management processes for your applications. This enables dynamic and efficient workflows, making content updates smooth and effortless.",
-    tag: "Streamlined Content Management",
-    title: "Headless CMS Integration",
-    headerText: "Simplifying Content Workflows for Better User Engagement."
-  },
-  {
-    description: "As a UI/UX developer, I excel in conducting user research, wireframing, prototyping, and usability testing. My goal is to create intuitive interfaces that meet user needs while aligning with your business objectives.",
-    tag: "User-Centered Design Practices",
+    description: "I conduct comprehensive user research, create user personas, and design user journeys that ensure your product meets real user needs. Through usability testing and iterative design, I optimize the user experience for maximum satisfaction and engagement.",
+    tag: "User Research & Testing",
     title: "User Experience Design",
-    headerText: "Delivering Intuitive and Enjoyable Digital Experiences."
+    headerText: "Designing User-Centered Experiences That Drive Results."
   },
   {
-    description: "I design and develop responsive and visually appealing mobile applications. By focusing on user-centric design principles, I ensure that mobile apps provide an engaging and intuitive experience across all devices.",
-    tag: "Mobile-First Design",
-    title: "Mobile Application Design",
-    headerText: "Creating Seamless and Engaging Mobile Experiences."
+    description: "I develop comprehensive design systems and style guides that ensure consistency across your brand. From component libraries to design tokens, I create scalable design solutions that maintain visual harmony and improve development efficiency.",
+    tag: "Design Systems & Branding",
+    title: "Design Systems & Brand Identity",
+    headerText: "Building Cohesive and Scalable Design Solutions."
   }
 ] as const;
 

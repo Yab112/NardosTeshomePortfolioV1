@@ -46,7 +46,7 @@ const useHover = <T extends HTMLElement>(
         current.removeEventListener("mouseleave", handleMouseLeave);
       };
     }
-  }, [ref.current, handleMouseMove, handleMouseEnter, handleMouseLeave]);
+  }, [ref, handleMouseMove, handleMouseEnter, handleMouseLeave]);
 
   const { x: xCoord, y: yCoord } = coords;
 

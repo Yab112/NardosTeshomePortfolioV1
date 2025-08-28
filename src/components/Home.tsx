@@ -1,120 +1,114 @@
 "use client";
 import { motion } from "framer-motion";
-import useHover from "@/hook/use-hover";
-import { useRef } from "react";
 import Link from "next/link";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { HiDownload } from "react-icons/hi";
-import { FaGithubSquare, FaLinkedinIn } from "react-icons/fa";
-import SectionDivider from "./SectionDivider";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import useActive from "@/hook/use-active";
-import { MemoizedStars } from "./ui/star";
-import { cn } from "@/utils/cn";
 
 const Home = () => {
   const { ref } = useActive("Home");
-  const photo = useRef<HTMLDivElement>(null);
-  const hero = useHover(photo, {
-    x: -60,
-    y: -45,
-    z: 30,
-  });
+
   return (
-    <section ref={ref} id="home" className="scroll-m-[100rem]">
-      <div
-        ref={photo}
-        className="min-h-[calc(100vh-80px)] pt-20 relative bg-grid-slate-300/40 "
-      >
-        <MemoizedStars />
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-gray-50 [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)]"></div>
+    <section ref={ref} id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Background with subtle gradient */}
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-50 via-blue-50/30 to-indigo-50/20"></div>
+      
+      {/* Subtle animated background elements */}
+      <div className="absolute inset-0">
+        <div className="absolute top-20 left-20 w-72 h-72 bg-purple-200 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob"></div>
+        <div className="absolute top-40 right-20 w-72 h-72 bg-yellow-200 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob animation-delay-2000"></div>
+        <div className="absolute -bottom-8 left-40 w-72 h-72 bg-pink-200 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob animation-delay-4000"></div>
+      </div>
 
+      {/* Main content */}
+      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        {/* Greeting text */}
         <motion.div
-          className={cn(
-            "relative  lg:h-[40rem] h-[80vh] flex flex-col justify-center   max-w-[1500px]  mx-auto  text-gray-700"
-          )}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="mb-6"
         >
-          <motion.div
-            className="w-[70%] hidden lg:flex left-1/2 px-52 -translate-x-1/2 absolute h-full  items-center justify-center   bg-cyan-800 bg-grid-white/[0.2] text-white [mask-image:url(/mask.svg)] [mask-size:40px] [mask-repeat:no-repeat]"
-            animate={{
-              WebkitMaskPosition: `0px 30px`,
-              WebkitMaskSize: `${350}px`,
-            }}
-          >
-            <motion.div
-              initial={{ opacity: 0, y: 100 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="max-w-4xl mx-auto text-center text-white text-2xl sm:text-3xl relative z-20"
-            >
-              <span className="font-bold">Hello, I am Nardos Teshome.</span> I am a{" "}
-              <span className="font-bold">UI/UX Developer.</span> I specialize in crafting
-              <span className="italic underline">web applications</span>{" "}
-              that are not only visually stunning but also intuitive and accessible,
-              ensuring a seamless user experience for all.
-            </motion.div>
-          </motion.div>
-
-          <motion.div
-            className="sm:w-[70%] mx-auto lg:px-52 lg:h-full flex items-center justify-center  text-white"
-            initial={{ opacity: 0, y: 100 }}
-            animate={{ opacity: 1, y: 0 }}
-          >
-            <p className="max-w-4xl mx-auto text-slate-800 text-center  text-2xl  sm:text-3xl ">
-              <span className="font-bold">Hello, I am Nardos Teshome.</span> I am a{" "}
-              <span className="font-bold">UI/UX Developer.</span> I specialize in crafting
-              <span className="italic underline">web applications</span>{" "}
-              that are not only visually stunning but also intuitive and accessible,
-              ensuring a seamless user experience for all.
-            </p>
-          </motion.div>
-
-          <div className="a lg:absolute lg:bottom-36 lg:left-1/2 lg:-translate-x-1/2 mt-8 lg:mt-0">
-            <Button />
-          </div>
+          <span className="text-lg sm:text-xl text-gray-600 font-medium">
+            Hello, I&apos;m
+          </span>
         </motion.div>
 
-        <SectionDivider delay={0.125} />
+        {/* Name */}
+        <motion.h1
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          className="text-4xl sm:text-6xl lg:text-7xl font-semibold text-gray-900 mb-6"
+        >
+          Nardos Teshome
+        </motion.h1>
+
+        {/* Role */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+          className="mb-8"
+        >
+          <div className="mb-6">
+            <div className="relative z-10 inline-block bg-white rounded-lg text-2xl sm:text-3xl lg:text-4xl font-semibold shadow-md" style={{ transform: 'skew(-6deg)', padding: '0.25rem 1.5rem 0.5rem' }}>
+              <span className="inline-block text-blue-600" style={{ transform: 'skew(6deg)' }}>
+                UI/UX Developer
+              </span>
+            </div>
+          </div>
+          <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            I craft intuitive digital experiences that blend creativity with functionality, 
+            ensuring every interaction feels seamless and meaningful.
+          </p>
+        </motion.div>
+
+        {/* Action buttons */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.6 }}
+          className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12"
+        >
+          <Link
+            href="#contact"
+            className="group bg-blue-600 text-white px-8 py-4 rounded-full text-lg hover:bg-blue-700 transition-all duration-300 flex items-center gap-2"
+          >
+            Let&apos;s Work Together
+            <AiOutlineArrowRight className="group-hover:translate-x-1 transition-transform duration-300" />
+          </Link>
+          
+          <a
+            href="/Nardos-Teshome cv.pdf"
+            download
+            className="group bg-white text-gray-900 px-8 py-4 rounded-full text-lg border-2 border-blue-300 hover:border-blue-400 hover:bg-blue-50 transition-all duration-300 flex items-center gap-2"
+          >
+            Download CV
+            <HiDownload className="group-hover:scale-110 transition-transform duration-300" />
+          </a>
+        </motion.div>
+
+        {/* Social links */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.8 }}
+          className="flex items-center justify-center gap-6"
+        >
+          <a
+            href="https://www.linkedin.com/in/nardos-teshome-078ba12b8/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group p-4 bg-white rounded-full border border-gray-200 hover:border-gray-300 transition-all duration-300 transform hover:-translate-y-1"
+          >
+            <FaLinkedinIn className="text-2xl text-blue-600 group-hover:scale-110 transition-transform duration-300" />
+          </a>
+        </motion.div>
       </div>
     </section>
-
   );
 };
 
 export default Home;
-
-const Button = () => {
-  return (
-    <motion.div
-      className="flex flex-col sm:flex-row items-center justify-center gap-4 z-[1000] px-4 text-lg font-medium"
-      initial={{ opacity: 0, y: 100 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{
-        delay: 0.1,
-      }}
-    >
-      <a
-        className=" bg-white z-[1000]  px-4 py-2 shadow-lg  flex items-center gap-2 rounded-full outline-none focus:scale-110   active:scale-105 transition cursor-pointer border"
-        href="/Nardos-Teshome cv.pdf"
-        download
-      >
-        Download CV <HiDownload className="opacity-60 " />
-      </a>
-
-      <Link
-        className="px-4 py-2 border bg-black text-white font-Poppins shadow-md rounded-full flex gap-2 justify-center items-center hover:bg-white hover:border-slate-400 hover:text-gray-900 active:scale-105 cursor-pointer group transition-all duration-200"
-        href="#contact"
-      >
-        Contact me
-        <AiOutlineArrowRight
-          className="opacity-60 group-hover:opacity-100 group-hover:bg-black group-hover:rounded-full group-hover:text-white transition-all duration-200 p-1 text-white"
-        />
-      </Link>
-      <a
-        className="bg-white p-3 text-gray-700 flex  shadow-lg  items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border"
-        href="https://www.linkedin.com/in/nardos-teshome-078ba12b8/"
-        target="_blank"
-      >
-        <FaLinkedinIn className="text-blue-600" />  
-      </a>
-    </motion.div>
-  );
-};

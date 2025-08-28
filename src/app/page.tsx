@@ -8,16 +8,16 @@ import Skill from "@/components/Skill"
 import { TracingBeam } from "@/components/ui/tracing-beam"
 export default function page() {
   return (
-    <div className=" ">
+    <div className="">
 
       <Home />
-      <TracingBeam className="px-6">
+      <div className="px-6">
         <About />
         <Projects />
         <Skill />
         <Service />
         <Contact />
-      </TracingBeam>
+      </div>
     </div>
   )
 }
