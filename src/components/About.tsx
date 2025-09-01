@@ -116,7 +116,7 @@ const AboutMe = () => {
               {/* Image container */}
               <div className="relative bg-white rounded-2xl border border-gray-200 overflow-hidden">
                 <Image
-                  src="/photo_2024-07-29_00-13-12.jpg"
+                  src="/nardi.jpg"
                   alt="Nardos Teshome"
                   width={400}
                   height={384}

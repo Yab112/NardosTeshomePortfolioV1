@@ -13,9 +13,10 @@ import booklate from "../../public/booklate.png";
   import impact from "../../public/impact.png";
   import checkout from "../../public/checkout.png";
 import MOH from "../../public/MOH.png";
-import fingerprinting from "../../public/fingerprinting.png";
+import pizaa from "../../public/pizaa.png";
 import machine from "../../public/machine.png";
-import m from "../../public/m.png";
+import glass from "../../public/glass.png";
+import analysis from "../../public/analysis.png";
 
 export const links = [
   {
@@ -67,9 +68,18 @@ export const projectsData = [
   description: 
     `An e-commerce platform for eyewear designed with a modern, user-friendly interface. The layout highlights product discovery, try-on previews, and detailed product pages while maintaining a clean visual style with an orange accent palette. The design focuses on easy navigation, smooth browsing, and a shopping experience that balances style with functionality.`,
   tags: ["Figma", "Adobe XD", "User Research", "Wireframing", "Prototyping"],
-  imageUrl: m,
+  imageUrl: glass,
   href: 'https://www.figma.com/design/XgsK34YHQufBH9Gvpp07Qv/Untitled?node-id=0-1&t=f5jI9Au4yDRSLImj-1'
 },
+{
+    title: "pizza ordering webapp",
+    description:
+      `pizza ordering webapp is a web application,
+      designed for users to order their favorite pizzas online.`,
+    tags: ["Figma", "Adobe XD", "User Research", "Wireframing", "Prototyping"],
+    imageUrl: pizaa,
+    href: 'https://www.figma.com/design/xoT8fvMg0KCkwa1ZuBG7Dl/Pizza-order?node-id=0-1&p=f&t=WMfx47Vc18JtPEmB-0'
+  },
 
   {
     title: "Coders Social Media",
@@ -123,16 +133,24 @@ export const projectsData = [
     `healthcare platform is a comprehensive solution designed to offer users seamless access to health services and information`,
   tags: ["UI/UX Design", "Health Platform", "Figma", "Prototyping", "Responsive Design"],
   imageUrl: healthcare,
-  href: 'https://www.figma.com/design/507kSZ9SrEWxaHZ8l9zZ3F/Memo-tape-tour-and-travel?node-id=94-142&t=5pMTU6tvIy04vq6p'
+  href: ''
 },
 
 {
-  title: "yekatit 12",
+  title: "License permission tracker",
   description: 
-    `developed a comprehensive UI/UX design for Yekatit 12, focusing on enhancing user experience and accessibility for internal use only. `,
+    `developed a comprehensive UI/UX design for License permission tracker, focusing on enhancing user experience and accessibility for internal use only. `,
   tags: ["UI/UX Design", "Travel Platform", "Figma", "Prototyping", "Responsive Design"],
   imageUrl: yekatit,
-  href: 'https://www.figma.com'
+  href: 'https://www.figma.com/design/gi9dKaC8YTTG9rOGUquvFO/License-permission-tracker?node-id=0-1&p=f&t=CNRyy4CuoBOCZnr7-0'
+},
+{
+  title: "Amhara health system Analysis Dashboard",
+  description: 
+    `Amhara health system Analysis Dashboard is a comprehensive platform designed to provide insights into health data and improve decision-making.`,
+  tags: ["UI/UX Design", "Comprehensive Platform", "Figma", "Prototyping", "Responsive Design"],
+  imageUrl: analysis,
+  href: 'figma.com/design/K1BLXMrp3hbMCJ93G1jAoL/Amhara-Regional-Health-Bureau-Performance--Dashboard--detail-MFR-page?node-id=0-1&p=f&t=L6UIEJYWStYUePap-0'
 },
 {
   title: "E-commerce Checkout Flow",
@@ -140,10 +158,8 @@ export const projectsData = [
     `A clean and intuitive checkout design that simplifies online payments. The flow includes secure payment details, order summary, and billing address entry, followed by a success confirmation screen with receipt download and order tracking options. Built with clarity and trust in mind, the design ensures a smooth and user-friendly purchasing experience.. `,
   tags: ["UI/UX Design", "Travel Platform", "Figma", "Prototyping", "Responsive Design"],
   imageUrl: checkout,
-  href: 'https://www.figma.com/design/WWE4PR8UWXpiLYXezfJSsD/Untitled?node-id=0-1&t=rbwsfN51JrAV8OG9-1'
+  href: 'https://www.figma.com/design/payetN70zGgVPJSrx4a9Nq/Untitled?node-id=0-1&p=f&t=zPdDQxN0ZUp6JRsi-0'
 },
-
-
 {
   title: "Booklate",
   description: 
@@ -152,6 +168,7 @@ export const projectsData = [
   imageUrl: booklate,
   href: 'https://www.figma.com/design/507kSZ9SrEWxaHZ8l9zZ3F/Memo-tape-tour-and-travel?node-id=94-142&t=5pMTU6tvIy04vq6p'
 },
+
 {
   title: "Impact logo design",
   description: 
